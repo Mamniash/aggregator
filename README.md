@@ -1,7 +1,7 @@
 # Сайт:
 
 ```
-//Пока не существует (надо купить домен) 
+https://aggregator-liart-two.vercel.app/ (надо купить домен)
 ```
 
 ## Функционал:
@@ -23,7 +23,7 @@
 ## Vercel:
 
 ```
-//Пока не существует (надо создать) 
+https://aggregator-liart-two.vercel.app/
 ```
 
 ### login (Vercel):
