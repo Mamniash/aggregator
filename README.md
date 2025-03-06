@@ -1,15 +1,14 @@
 # Сайт:
 
 ```
-https://aggregator-liart-two.vercel.app/ (надо купить домен)
-```
+https://aggregator-liart-two.vercel.app/```
 
 ## Функционал:
 
 ## Задачи:
 
 1. Создать репозиторий.
-2. 
+2. Купить нормальный домен
 3. 
 4. 
 5. 
