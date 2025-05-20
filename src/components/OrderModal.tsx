@@ -25,7 +25,7 @@ const OrderModal: React.FC<OrderModalProps> = ({ open, onClose }) => {
 		>
 			<div className='text-center p-4'>
 				<Title level={4}>
-					Получите идеальный меню по&nbsp;лучшей&nbsp;цене!
+					Получите идеальное меню по&nbsp;лучшей&nbsp;цене!
 				</Title>
 				<Paragraph>
 					Оставьте номер телефона — мы подберем для вас персональное меню и

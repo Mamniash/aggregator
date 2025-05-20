@@ -16,19 +16,19 @@ const starCount = 5
 const testimonials = [
 	{
 		name: 'Ирина',
-		subtitle: 'стабилизировала гастрит',
+		// subtitle: 'стабилизировала гастрит',
 		text: 'Уже несколько месяцев в ремиссии! Меню мягкое, продуманное и помогает не бояться новых срывов. Готовить легко, а\u00A0вкус\u00A0радует.',
 		tag: 'Безопасно и вкусно'
 	},
 	{
 		name: 'Виталий',
-		subtitle: 'пробовал разные диеты',
+		// subtitle: 'пробовал разные диеты',
 		text: 'Перерывы были, тяжесть возвращалась. С этим меню желудок в порядке, а еда — настоящая радость, не обычная пресная\u00A0пища.',
 		tag: 'Стабильность и разнообразие'
 	},
 	{
 		name: 'Наталья',
-		subtitle: 'следит за диетой',
+		// subtitle: 'следит за диетой',
 		text: 'Важно не только исключать вредное, но и получать удовольствие от еды. Эти наборы — именно то, что нужно при гастрите\u00A0в\u00A0ремиссии.',
 		tag: 'Удобство и поддержка'
 	}
@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
 				</h2>
 
 				<div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-					{testimonials.map(({ name, subtitle, text, tag }, idx) => (
+					{testimonials.map(({ name, text, tag }, idx) => (
 						<Card
 							key={idx}
 							className='rounded-xl shadow-md p-6 bg-white'
@@ -62,9 +62,9 @@ const TestimonialsSection = () => {
 										<div className='font-semibold text-lg'>
 											{name}
 										</div>
-										<div className='text-gray-500 text-sm'>
+										{/* <div className='text-gray-500 text-sm'>
 											{subtitle}
-										</div>
+										</div> */}
 										<div className='flex mt-1 text-yellow-400'>
 											{[...Array(starCount)].map((_, i) => (
 												<StarFilled key={i} />
