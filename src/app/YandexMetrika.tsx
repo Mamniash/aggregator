@@ -1,4 +1,4 @@
-'use client' // Важно: указываем, что это клиентский компонент
+'use client'
 
 import Script from 'next/script'
 
@@ -6,7 +6,7 @@ export const YandexMetrika = () => (
 	<>
 		<Script
 			id='yandex-metrika'
-			strategy='afterInteractive' // Загружается после гидратации страницы
+			strategy='afterInteractive'
 			dangerouslySetInnerHTML={{
 				__html: `
           (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -15,11 +15,11 @@ export const YandexMetrika = () => (
           k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
           (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-          ym(100668014, "init", {
-              clickmap:true,
-              trackLinks:true,
-              accurateTrackBounce:true,
-              webvisor:true
+          ym(102073661, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
           });
         `
 			}}
@@ -27,7 +27,7 @@ export const YandexMetrika = () => (
 		<noscript>
 			<div>
 				<img
-					src='https://mc.yandex.ru/watch/100668014'
+					src='https://mc.yandex.ru/watch/102073661'
 					style={{ position: 'absolute', left: '-9999px' }}
 					alt=''
 				/>
